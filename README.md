@@ -26,18 +26,20 @@ A simple **ETL (Extract, Transform, Load)** pipeline built in Python. Reads sale
 - **SQLite** — output database
 
 ## Project Structure
+
+```
 csv-to-sql-etl/
 ├── data/
-│ ├── sales.csv # Input CSV (test data)
-│ ├── sales.db # Output SQLite database
-│ └── etl.log # Pipeline log
+│   ├── sales.csv           # Input CSV (test data)
+│   ├── sales.db            # Output SQLite database (gitignored)
+│   └── etl.log             # Pipeline log (gitignored)
 ├── scripts/
-│ ├── etl_pipeline.py # Main ETL script
-│ └── verify_db.py # Quick DB verification
+│   ├── etl_pipeline.py     # Main ETL script
+│   └── verify_db.py        # Quick DB verification
 ├── .gitignore
 ├── README.md
 └── requirements.txt
-
+```
 text
 
 ## Installation
